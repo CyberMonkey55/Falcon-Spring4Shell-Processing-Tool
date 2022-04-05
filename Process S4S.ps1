@@ -1,0 +1,2 @@
+Get-ChildItem -Filter *.csv -Path C:\Users\*UserName*\Desktop\Spring4Shell_Searches\Recent | Select-Object -ExpandProperty FullName | Import-Csv | Export-Csv C:\Users\*UserName*\Desktop\Spring4Shell_Searches\MasterDoc.csv -NoTypeInformation -Append
+        Remove-Item C:\Users\*UserName*\Desktop\Spring4Shell_Searches\Recent\*.csv
